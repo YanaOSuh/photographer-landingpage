@@ -1,0 +1,47 @@
+.navbar, h4, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+.aboutPhotoshoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.photoTypes img {
+    filter: opacity(0.7);
+}
+.photoTypes img:hover {
+    filter: opacity(1);
+}
+#photoChange {
+    margin-right: 20px;
+}
+.nav-link:hover {
+    background-color: rgba(000, 000, 000, 0.2);
+}
+.myInfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-decoration: none;
+}
+.myInfo:hover {
+    color: black;
+}
+.myName {
+    text-decoration: none;
+    color:  #212529;
+    font-weight: bold;
+}
+
+@media all and (max-width:540px) {
+    .aboutPhotoshoot {
+        flex-wrap: wrap;
+        padding: 0 10%;
+    }
+    .chioce {
+        padding-top: 10px;
+    }
+}
